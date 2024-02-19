@@ -1,0 +1,13 @@
+<%# <h1>Ask a Question</h1>
+<%= form_tag '/submit_question', method: 'post' do %>
+  <%# <div class="field">
+    <%= label_tag :question, 'Your Question:' %>
+    <%# <%= text_field_tag :question %>
+  <%# </div>
+  <%= submit_tag 'Ask' %>
+<%# <% end %>
+
+<form action="/answer" methode = "post" data-turbo="false">
+  <input type="text" name="question">
+  <input type="submit" value="Ask!">
+</form>

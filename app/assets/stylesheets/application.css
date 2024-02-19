@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+/* Style the form container */
+form {
+  margin: 20px auto;
+  width: 300px;
+  text-align: center;
+}
+
+/* Style the text input */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Change button background color on hover */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
